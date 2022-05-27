@@ -1,0 +1,125 @@
+
+.item-start--titles h2 {
+    font-size: 3rem;
+}
+
+.item-start--titles h3 {
+    font-size: 2.5rem;
+}
+
+.abut-content--vision h1 {
+    font-size: 3.5rem;
+    top: 25%;
+}
+
+
+.abut-content--vision p {
+    font-size: 2rem;
+}
+
+.description-part1 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.about-container--down {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-areas: 
+    "reflector"
+    "description" 
+    "finca";
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+
+.tech-picture--container {
+    height: 100%;
+    width: 100%;
+}
+
+.tech-picture-3 {
+    grid-area: finca;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/about/tech/tech-3.jpg);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tech-picture-1 {
+    grid-area: reflector;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/about/tech/tech-1.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content--tech {
+    grid-area: description;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.tech-description {
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+
+.products-title h2 {
+    font-size: 3rem;
+}
+
+.products-title h3 {
+    font-size: 2rem;
+}
+
+.products-description p {
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+.footer-section h2 {
+    font-size: 1.8rem;
+}
+
+.contact-list--icons {
+    display: none;
+}
+
+.footer-container i {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.footer-container a {
+    padding: 0;
+}
+
+.contact-list--info{
+    display: grid;
+    justify-content: center;
+}
+
+
+.contact-list--info a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.footer-location {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+.footer-location p {
+    font-size: 1.5rem;
+
+}

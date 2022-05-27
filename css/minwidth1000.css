@@ -1,0 +1,64 @@
+/* START */
+
+.item-start--titles h2 {
+    font-size: 3.5rem;
+}
+
+.item-start--titles h3 {
+    font-size: 3rem;
+}
+
+/* ABOUT */
+.abut-content--vision h1 {
+    font-size: 4rem;
+}
+
+.abut-content--vision p {
+    font-size: 2.5rem;
+}
+
+.description-part1 {
+    margin-top: 7rem;
+}
+
+.tech-description {
+font-size: 2rem;
+}
+
+/* PRODUICTS */
+.products-title h2 {
+    font-size: 3.5rem;
+}
+
+.products-title h3 {
+    font-size: 2.5rem;
+}
+
+.products-description p {
+    font-size: 2.5rem;
+}
+
+/* FOOTER */
+
+.contact-list--info {
+    margin-top: 2rem;
+}
+
+.footer-location {
+    display: flex;
+}
+
+.footer-location .ver-mapa {
+    display: none;
+}
+
+.footer-location p {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-location iframe {
+    display: block;
+    margin: 0 auto;
+}

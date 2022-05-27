@@ -1,0 +1,394 @@
+
+/* HEADER */
+.header {
+    width: 100%;
+    height: 10rem;
+}
+
+.logo-nav--container {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--brand-color);
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    background-image: url(../img/header/Logo-finca-03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 10rem;
+}
+
+
+.main-item {
+    padding-top: 10rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* START */
+.main-item--start {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.item-start--video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.item-start--titles {
+    position: relative;
+    width: 90%;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.item-start--titles h2 {
+    position: relative;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--red-color);
+    border-radius: 1rem;
+}
+
+.item-start--titles h3 {
+    margin-top: 20%;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: var(--brand-color);
+    border-radius: .5rem;
+}
+
+/* ABOUT */
+.main-item--about {
+    height: 200vh;
+    background-image:
+    url(../img/about/sunrise_ok.jpg);
+    background-position: center end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    position: relative;
+}
+
+.about-container--up {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.abut-content--vision {
+    background-image:
+    url(../img/about/sunrise_ok.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.main-item--about h1 {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 20%;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+
+.abut-content--vision h2 {
+    display: none;
+    font-size: 2rem;
+}
+
+.abut-content--vision p {
+    width: 90%;
+    position: absolute;
+    margin:0 auto;
+    left: 5%;
+    bottom: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--brand-color);
+}
+
+.about-content--description {
+    width: 100%;
+    height: 50%;
+}
+
+
+.about-content--description {
+    width: 90%;
+    padding-top: 1rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.description-part1 {
+    width: 90%;
+    margin: 10% auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align:justify;
+}
+
+.description-part2 {
+    display: none;
+}
+
+.about-container--down {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.tech-picture--container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.tech-picture-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/about/tech/tech-1.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content--tech {
+    height: 50%;
+    width: 100%;
+}
+
+.tech-description {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--brand-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tech-description a {
+    color: var(--red-color);
+}
+
+.tech-description a:hover {
+    color: black;
+}
+
+
+/* PRODUCTS */
+
+.main-item--products {
+    height: 100vh;
+    width: 100%;
+    padding-top: 10rem;
+    background-image:
+    url(../img/products/Productos_fincacastel_edit.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.products-title {
+    width: 100%;
+    height: 20%;
+}
+
+.products-title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.products-title h3 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--red-color);
+    text-align: center;
+    background-color: var(--brand-color)
+}
+
+.products-container {
+    width: 100%;
+    height: 60%;
+}
+
+.products-container--items {
+    display: grid;
+    grid-template-areas: 
+    "pulcal xamati"
+    "miel miel";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 50%;
+    height: 100%;
+}
+
+#pulcal {
+    grid-area: pulcal;
+    background-image: url(../img/products/botella_pulcal.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#xamati {
+    grid-area: xamati;
+    background-image: url(../img/products/xamati.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#miel {
+    grid-area: miel;
+    background-image: url(../img/products/miel_presentaciones.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.products-description {
+    width: 100%;
+    height: 20%;
+}
+
+.products-description p {
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    background-color: var(--brand-color);
+}
+
+.footer-container a {
+    color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer-container a:hover {
+    color: var(--red-color);
+}
+
+.footer-section h2 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.contact-list--info {
+    display: none;
+}
+
+
+.contact-list--icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list--icons li {
+    margin: 0 auto;
+}
+
+
+.footer-follow {
+    display: grid;
+    grid-template-areas:
+    "logo logo"
+    "f i";
+    grid-template-rows:60% 40%;
+    column-gap: 1rem;
+}
+
+
+.footer-logo {
+    grid-area: logo;
+    place-self: center;
+    background-image: url(../img/header/Logo-finca-03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+}
+
+.facebook-icon {
+    grid-area: f;
+    justify-self: end;
+    align-self: start;
+    color: black;
+}
+
+.instagram-icon {
+    grid-area: i;
+    justify-self: start;
+    color: black;
+}
+
+
+.footer-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-location h2 {
+    padding-bottom: 2rem;
+}
+
+.footer-location p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-location iframe {
+    display: none;
+}

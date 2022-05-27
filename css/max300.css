@@ -1,0 +1,30 @@
+.abut-content--vision p {
+    font-size: 1.3rem;
+}
+
+
+.description-part1 {
+    margin: 7% auto;
+    font-size: 1.3rem;
+}
+
+.products-description p {
+    font-size: 1.3rem;
+}
+
+.footer-container {
+    
+    place-items: center;
+}
+.footer-section h2 {
+    padding-left:1rem;
+    font-size: 1.3rem;
+}
+
+.footer-section p {
+    font-size: 1rem;
+}
+
+.footer-section p a {
+    font-size: 1rem;
+}

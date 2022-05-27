@@ -1,0 +1,71 @@
+.menu-icon {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.navbar ul li a:hover {
+    color: var(--red-color);
+}
+
+.abut-content--vision h1 {
+    width: 90%;
+    position: absolute;
+    padding-top: 0;
+    margin:0 auto;
+    left: 5%;
+    top: 20%;
+    color: var(--brand-color);
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+.products-title h3 {
+    margin-top: 5%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--red-color);
+    text-align: center;
+    background-color: var(--brand-color)
+}
+
+
+.products-description p {
+    font-size: 1.7rem;
+}
+
+.footer-section {
+    width: 100%;
+}
+
+.footer-follow {
+    display: grid;
+    grid-template-areas:
+    "logo logo"
+    "f i";
+    grid-template-rows:70% 30%;
+}
+
+.footer-logo {
+    width: 15rem;
+    height: 10rem;
+}
